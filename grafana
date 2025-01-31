@@ -1,0 +1,7 @@
+apiVersion: 1
+datasources:
+  - name: Prometheus
+    type: prometheus
+    access: proxy
+    url: http://52.66.78.232:9090
+    isDefault: true
